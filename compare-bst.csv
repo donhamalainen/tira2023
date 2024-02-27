@@ -1,0 +1,10 @@
+** Analysing bst.add(key, value) and toArray speeds, all times are ms **
+Elements (n),Add time,Add time/item,To sorted array time,Search time,Search time/item,get(index) time,get(index) time/item,Testfile
+100,1,0.0100,2,1,0.0100,0,0.0000,100-city-coders.json
+1000,0,0.0000,0,1,0.0010,0,0.0000,1000-area-coders.json
+5000,3,0.0006,1,2,0.0004,1,0.0002,5000-town-coders.json
+10000,6,0.0006,0,5,0.0005,1,0.0001,10000-large-city-coders.json
+50000,33,0.0007,2,33,0.0007,4,0.0001,50000-country-coders.json
+100000,110,0.0011,2,79,0.0008,8,0.0001,100000-europe-coders.json
+1000000,1676,0.0017,24,1446,0.0014,65,0.0001,1000000-global-coders.json
+2000000,4370,0.0022,88,2935,0.0015,236,0.0001,2000000-milky-way-orion-spur-coders.json

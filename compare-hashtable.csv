@@ -1,0 +1,8 @@
+** Analysing add(key, value) and to array + sorting speed, times in ms **
+Elements,Add time,Add time/item,To array and sorting,Search time,Search time/item,Testfile
+100,0,0.0000,5,0,0.0000,100-city-coders.json
+1000,1,0.0010,1,0,0.0000,1000-area-coders.json
+5000,2,0.0004,3,1,0.0002,5000-town-coders.json
+10000,5,0.0005,6,3,0.0003,10000-large-city-coders.json
+50000,22,0.0004,38,15,0.0003,50000-country-coders.json
+100000,38,0.0004,41,8,0.0001,100000-europe-coders.json
